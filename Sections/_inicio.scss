@@ -1,0 +1,121 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  * {
+    font-family: sans-serif;
+  }
+  
+  .contenedor {
+    width: 100%;
+    margin: auto;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .header__contenido {
+    position: relative;
+    z-index: 100;
+  }
+  
+  .logo {
+    font-weight: 900;
+    font-size: 30px;
+    margin: 10px;
+    font-family: cambria;
+    color: #B19D87;
+  }
+  
+  .banner {
+    height: 50vh;
+    margin-top: -60px;
+    position: relative;
+    background: url('../imagenes/Diseño\ sin\ título\ \(1\).png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .banner__descripcion {
+    position: absolute;
+    text-align: center;
+    color: #B19D87;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 25px;
+  }
+  
+  .button__banner {
+    background: #46311E;
+    border: none;
+    padding: 12px;
+    color:#B19D87;
+    font-size: 20px;
+  }
+  
+  .button__banner:hover {
+    border: 2px solid ;
+    background: none;
+  }
+  
+  
+  
+  .galeria h1 {
+    font-size: 40px;
+    text-align: center;
+  ;
+  }
+  
+  .galeria {
+    margin: 20px;
+   
+  
+  }
+  
+  .team h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .team {
+    background: #B19D87;
+    padding: 30px;
+  }
+  
+  .team__columna img {
+    border-radius: 50%;
+  }
+  
+  .team p {
+    text-align: justify;
+  }
+  
+  .team__grid {
+    display: grid;
+    grid-gap: 30px;
+  }
+  
+  .info h1 {
+    color: white;
+    font-size: 30px;
+  }
+  
+  .info {
+    text-align: center;
+  }
+  
+  .info__columna {
+    margin: 20px;
+  }
+  
+  .info .contenedor {
+    display: grid;
+    grid-gap: 10px;
+  }

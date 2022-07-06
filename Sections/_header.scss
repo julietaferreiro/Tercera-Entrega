@@ -1,0 +1,59 @@
+.header{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #B19D86;
+  color: white;
+  padding: 40px;
+  grid-row: unset;
+  }
+
+  header .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .logo h1{
+        margin: 10px;
+        }
+
+        .logo img:hover{
+            transform: rotate(1.5);
+            }
+            
+            .header lista{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            column-gap: 1cm;
+            
+            
+            }
+        .lista li {
+        margin: 50px;
+        padding-bottom: 20;
+        cursor: pointer;
+        column-gap: 1cm;
+        }
+        .contacto{
+        background-color: #B19D86;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        }
+        
+        .quienes.somos{
+        background-color: #B19D86;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        lighting-color: #B19D86;
+        
+        }
